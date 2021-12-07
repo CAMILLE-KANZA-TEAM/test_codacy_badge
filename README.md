@@ -1,2 +1,1 @@
-# P5
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c2c4bc10c6c3456fa5a5396da0353b89)](https://app.codacy.com/gh/Zopiote/P5?utm_source=github.com&utm_medium=referral&utm_content=Zopiote/P5&utm_campaign=Badge_Grade_Settings)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/b5c5526446c34db6b0b186ca8cfda558)](https://www.codacy.com/gh/CAMILLE-KANZA-TEAM/test_codacy_badge/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=CAMILLE-KANZA-TEAM/test_codacy_badge&amp;utm_campaign=Badge_Grade)

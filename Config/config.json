@@ -1,0 +1,18 @@
+{
+	"autoloadFolder": [
+		"Framework",
+		"Controller",
+		"Model",
+		"Framework/Exception",
+		"Model/Manager",
+		"Model/Entite"
+	],
+	"database":  {
+            "name": "Ma base de données",
+            "dbname": "projet5",
+            "host": "localhost",
+            "user": "root",
+            "password": ""
+    },
+	"basepath" : "/projet5"
+}

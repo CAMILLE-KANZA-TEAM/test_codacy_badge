@@ -1,0 +1,292 @@
+[{
+	"path" : "/",
+	"controller" : "Home",
+	"action" : "Home",
+	"method" : "GET",
+	"param" : [],
+	"manager": [],
+	"admin": 0
+},
+{
+	"path" : "/",
+	"controller" : "Home",
+	"action" : "Home",
+	"method" : "POST",
+	"param" : [],
+	"manager": [],
+	"admin": 0
+},
+{
+	"path" : "/home/admin",
+	"controller" : "Home",
+	"action" : "HomeAdmin",
+	"method" : "GET",
+	"param" : [],
+	"manager": [],
+	"admin": 1
+},
+{
+	"path" : "/listPost",
+	"controller" : "Post",
+	"action" : "ListPost",
+	"method" : "GET",
+	"param" : [],
+	"manager": [
+		"PostManager"
+	],
+	"admin": 0
+},
+{
+	"path" : "/post",
+	"controller" : "Post",
+	"action" : "Post",
+	"method" : "GET",
+	"param" : [
+		"id"
+	],
+	"manager": [
+		"PostManager",
+		"CommentManager"
+	],
+	"admin": 0
+},
+{
+	"path" : "/post",
+	"controller" : "Post",
+	"action" : "Post",
+	"method" : "POST",
+	"param" : [
+		"id"
+	],
+	"manager": [
+		"PostManager",
+		"CommentManager"
+	],
+	"admin": 0
+},
+{
+	"path" : "/admin/post/list",
+	"controller" : "Post",
+	"action" : "PostList",
+	"method" : "GET",
+	"param" : [],
+	"manager": [
+		"PostManager"
+	],
+	"admin": 1
+},
+{
+	"path" : "/admin/comment/list",
+	"controller" : "Comment",
+	"action" : "CommentList",
+	"method" : "GET",
+	"param" : [],
+	"manager": [
+		"CommentManager"
+	],
+	"admin": 1
+},
+{
+	"path" : "/admin/user/list",
+	"controller" : "User",
+	"action" : "UserList",
+	"method" : "GET",
+	"param" : [],
+	"manager": [
+		"UserManager"
+	],
+	"admin": 1
+},
+{
+	"path" : "/admin/post/add",
+	"controller" : "Post",
+	"action" : "PostAdd",
+	"method" : "GET",
+	"param" : [],
+	"manager": [
+		"PostManager"
+	],
+	"admin": 1
+},
+{
+	"path" : "/admin/post/add",
+	"controller" : "Post",
+	"action" : "PostAdd",
+	"method" : "POST",
+	"param" : [],
+	"manager": [
+		"PostManager"
+	],
+	"admin": 1
+},
+{
+	"path" : "/admin/post/edit",
+	"controller" : "Post",
+	"action" : "PostEdit",
+	"method" : "GET",
+	"param" : [
+		"id"
+	],
+	"manager": [
+		"PostManager"
+	],
+	"admin": 1
+},
+{
+	"path" : "/admin/post/edit",
+	"controller" : "Post",
+	"action" : "PostEdit",
+	"method" : "POST",
+	"param" : [
+		"id"
+	],
+	"manager": [
+		"PostManager"
+	],
+	"admin": 1
+},
+{
+	"path" : "/admin/post/delete",
+	"controller" : "Post",
+	"action" : "PostDelete",
+	"method" : "GET",
+	"param" : [
+		"id"
+	],
+	"manager": [
+		"PostManager"
+	],
+	"admin": 1
+},
+{
+	"path" : "/admin/comment/delete",
+	"controller" : "Comment",
+	"action" : "CommentDelete",
+	"method" : "GET",
+	"param" : [
+		"id"
+	],
+	"manager": [
+		"CommentManager"
+	],
+	"admin": 1
+},
+{
+	"path" : "/admin/comment/valid",
+	"controller" : "Comment",
+	"action" : "CommentValid",
+	"method" : "GET",
+	"param" : [
+		"id"
+	],
+	"manager": [
+		"CommentManager"
+	],
+	"admin": 1
+},
+{
+	"path" : "/admin/comment/devalid",
+	"controller" : "Comment",
+	"action" : "CommentDevalid",
+	"method" : "GET",
+	"param" : [
+		"id"
+	],
+	"manager": [
+		"CommentManager"
+	],
+	"admin": 1
+},
+{
+	"path" : "/admin/user/valid",
+	"controller" : "User",
+	"action" : "UserValid",
+	"method" : "GET",
+	"param" : [
+		"id"
+	],
+	"manager": [
+		"UserManager"
+	],
+	"admin": 1
+},
+{
+	"path" : "/admin/user/devalid",
+	"controller" : "User",
+	"action" : "UserDevalid",
+	"method" : "GET",
+	"param" : [
+		"id"
+	],
+	"manager": [
+		"UserManager"
+	],
+	"admin": 1
+},
+{
+	"path" : "/Login",
+	"controller" : "User",
+	"action" : "Login",
+	"method" : "GET",
+	"param" : [],
+	"manager": [],
+	"admin": 0
+},
+{
+	"path" : "/Login",
+	"controller" : "User",
+	"action" : "Authenticate",
+	"method" : "POST",
+	"param" : [],
+	"manager": [
+		"UserManager"	
+	],
+	"admin": 0
+},
+{
+	"path" : "/Registration",
+	"controller" : "User",
+	"action" : "Registration",
+	"method" : "GET",
+	"param" : [],
+	"manager": [],
+	"admin": 0
+},
+{
+	"path" : "/Registration",
+	"controller" : "User",
+	"action" : "Registration",
+	"method" : "POST",
+	"param" : [],
+	"manager": [
+		"UserManager"
+	],
+	"admin": 0
+},
+{
+	"path" : "/Logout",
+	"controller" : "User",
+	"action" : "Logout",
+	"method" : "GET",
+	"param" : [],
+	"manager": [],
+	"admin": 0
+},
+{
+	"path" : "/Error",
+	"controller" : "Error",
+	"action" : "Show",
+	"method" : "GET",
+	"param" : [],
+	"manager": [],
+	"admin": 0
+},
+{
+	"path" : "/email/contact",
+	"controller" : "Email",
+	"action" : "EmailContact",
+	"method" : "POST",
+	"param" : [],
+	"manager": [],
+	"admin": 0
+}]

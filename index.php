@@ -1,5 +1,6 @@
 <?php
 	require_once 'vendor/autoload.php';
+    require_once 'Tools/SessionManager.php';
 
 	use Symfony\Component\Dotenv\Dotenv;
 	
